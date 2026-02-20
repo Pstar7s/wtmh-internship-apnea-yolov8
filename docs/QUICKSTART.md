@@ -331,4 +331,4 @@ For issues or questions:
 ---
 
 **Last Updated:** January 2026  
-**Author:** Faiz Henri Kurniawan
+**Internship Documentation - WTMH Lab, NCKU**

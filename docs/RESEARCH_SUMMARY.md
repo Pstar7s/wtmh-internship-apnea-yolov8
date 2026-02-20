@@ -1,8 +1,10 @@
-# Research Summary: Frequency Range Exploration for ECG-Based Sleep Apnea Detection
+# Work Summary: Frequency Range Exploration for ECG-Based Sleep Apnea Detection
 
-**Intern:** Faiz Henri Kurniawan  
-**Institution:** WTMH Lab, National Cheng Kung University (NCKU)  
+**Internship Documentation**  
+**Lab:** WTMH Lab, National Cheng Kung University (NCKU)  
 **Duration:** August 2025 - January 2026
+
+> This document summarizes work performed during a 6-month internship.
 
 ---
 

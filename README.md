@@ -1,8 +1,11 @@
 # Sleep Apnea-Hypopnea Detection using ECG Signals and Deep Learning
 
-**Research Internship at WTMH Lab, National Cheng Kung University (NCKU)**  
-**Duration:** August 2025 - January 2026 (6 months)  
-**Intern:** Faiz Henri Kurniawan
+**Internship Documentation**  
+**Lab:** WTMH Lab, National Cheng Kung University (NCKU)  
+**Duration:** August 2025 - January 2026 (6 months)
+
+> This repository documents work performed during a 6-month internship at WTMH Lab, NCKU.  
+> Building upon existing research methodologies for archival and educational purposes.
 
 ---
 
@@ -504,26 +507,25 @@ During the 6-month internship (August 2025 - January 2026), weekly progress was 
 
 ## �🙏 Acknowledgments
 
-This research was conducted at the **WTMH Lab, National Cheng Kung University (NCKU)**, Taiwan.
+This work was performed during an internship at **WTMH Lab, National Cheng Kung University (NCKU)**, Taiwan.
 
-Special thanks to:
-- WTMH Lab members for guidance and support
-- NCKUSH for providing the sleep study dataset
-- NCKU for providing computational resources
+- WTMH Lab for supervision and guidance
+- NCKUSH for dataset access
+- NCKU for computational resources
 
 ---
 
 ## 📧 Contact
 
-For questions or collaboration:
-- **Name:** Faiz Henri Kurniawan
-- **Lab:** WTMH Lab, NCKU
+For inquiries about this work:
+- Contact WTMH Lab, NCKU
 
 ---
 
 ## 📜 License
 
-This project is part of academic research at NCKU. Please contact for usage permissions.
+This repository documents internship work at NCKU WTMH Lab.  
+For any usage or inquiries, please contact WTMH Lab, NCKU.
 
 ---
 

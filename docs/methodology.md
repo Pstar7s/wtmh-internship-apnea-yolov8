@@ -368,4 +368,4 @@ PATIENCE = 10  # Early stopping
 
 **Document Version:** 1.0  
 **Last Updated:** January 2026  
-**Author:** Faiz Henri Kurniawan
+**Documentation of internship work at WTMH Lab, NCKU**

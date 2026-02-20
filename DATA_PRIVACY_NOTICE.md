@@ -55,5 +55,4 @@ For inquiries about NCKUHSC dataset access:
 ---
 
 **Last Updated:** February 2026  
-**Responsible Researcher:** Faiz Henri Kurniawan  
 **Lab:** WTMH Lab, NCKU
