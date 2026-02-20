@@ -512,7 +512,9 @@ During the 6-month internship (August 2025 - January 2026), weekly progress was 
 
 This work was performed during an internship at **WTMH Lab, National Cheng Kung University (NCKU)**, Taiwan.
 
-- WTMH Lab for supervision and guidance
+**Special thanks to:**
+- **Prof. Che-wei Lin** - Supervisor and principal investigator, for invaluable guidance and mentorship throughout this internship
+- WTMH Lab members for support and collaboration
 - NCKUSH for dataset access
 - NCKU for computational resources
 
