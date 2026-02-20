@@ -142,3 +142,4 @@ re_kfold*.yaml
 !docs/
 !docs/**/*.pdf
 !docs/**/*.md
+*.pdf

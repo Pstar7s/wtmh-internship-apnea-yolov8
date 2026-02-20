@@ -1,5 +1,8 @@
 # Sleep Apnea-Hypopnea Detection using ECG Signals and Deep Learning
 
+> **⚠️ PUBLIC REPOSITORY NOTICE**  
+> This repository contains **code, notebooks, and documentation only**. The NCKUSH dataset is **NOT included** due to privacy restrictions. All results are presented in aggregated form.
+
 **Internship Documentation**  
 **Lab:** WTMH Lab, National Cheng Kung University (NCKU)  
 **Duration:** August 2025 - January 2026 (6 months)

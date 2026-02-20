@@ -535,19 +535,9 @@ Results documented in CSV files:
 
 ## Repository Information
 
-**GitHub:** [Repository URL]  
-**Documentation:** See `docs/` folder  
-**Contact:** Faiz Henri Kurniawan
-
-**Citation:**
-```bibtex
-@misc{kurniawan2026sleep,
-  author = {Kurniawan, Faiz Henri},
-  title = {Sleep Apnea-Hypopnea Detection using ECG Signals and YOLOv8},
-  year = {2026},
-  institution = {WTMH Lab, National Cheng Kung University}
-}
-```
+**Documentation:** Complete documentation available in `docs/` folder  
+**Lab:** WTMH Lab, National Cheng Kung University  
+**Period:** August 2025 - January 2026
 
 ---
 
