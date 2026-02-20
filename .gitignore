@@ -1,0 +1,144 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Data Files (Large files - should be stored elsewhere)
+*.edf
+*.EDF
+*.xml
+*.XML
+data/raw/
+data/preprocessed_ecg/*.npy
+data/spectrograms/
+
+# Large preprocessed data
+preprocessed_ecg/*.npy
+preprocessed_ecg/
+
+# Model Checkpoints (Large files - use Git LFS or external storage)
+checkpoint_epoch/*.pt
+models/checkpoint_epoch/*.pt
+*.pt
+*.pth
+*.ckpt
+runs/
+weights/
+
+# YOLOv8 training outputs
+runs/
+train/
+valid/
+test/
+
+# Logs
+*.log
+logs/
+wandb/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Results and outputs (can be regenerated)
+results/*.png
+results/*.jpg
+figures/**/*.png
+figures/**/*.jpg
+
+# Large CSV files (optional - keep smaller summary CSVs)
+# *.csv
+
+# Compiled files
+*.pyc
+
+# Environment variables
+.env
+.env.local
+
+# Google Colab
+.config/
+
+# Cache
+.cache/
+*.cache
+
+# Dataset folders (too large for git)
+Dataset/
+dataset/
+spectrograms/
+*_spectrograms/
+
+# YOLO dataset structure
+**/images/
+**/labels/
+*.yaml
+
+# Keep README and requirements
+!README.md
+!requirements.txt
+!**/README.md
+
+# Keep small config files
+!config/*.yaml
+!*.yaml
+# But exclude data-related YAMLs
+re_loso*.yaml
+re_kfold*.yaml
+
+# Documentation - keep
+!docs/
+!docs/**/*.pdf
+!docs/**/*.md

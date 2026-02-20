@@ -1,0 +1,2 @@
+Model,Total_Parameters,SincNet_Filters,Best_Epoch,Best_Val_Acc,Test_Accuracy,Test_Precision,Test_Recall,Test_F1,Train_Samples,Val_Samples,Test_Samples
+SincNet-ECG,13970,8,31,88.47934634589197,76.46778042959427,0.7835522113112258,0.7646778042959427,0.7618915765626743,56908,11015,12570

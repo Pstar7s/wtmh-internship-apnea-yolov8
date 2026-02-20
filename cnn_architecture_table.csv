@@ -1,0 +1,13 @@
+Layer,Type,Output_Channels,Kernel_Size,Parameters
+SincConv1d,SincNet,4,252,8
+MaxPool1,Pooling,4,4,0
+Conv2,Conv,32,5,672
+BatchNorm2,Normalization,32,-,64
+MaxPool2,Pooling,32,4,0
+Conv3,Conv,64,5,10304
+BatchNorm3,Normalization,64,-,128
+MaxPool3,Pooling,64,4,0
+GAP,Pooling,64,-,0
+FC1,Linear,32,-,2080
+Dropout,Regularization,32,-,0
+FC2,Linear,2,-,66
