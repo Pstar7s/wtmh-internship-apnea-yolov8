@@ -303,56 +303,71 @@ Comparison of frequency ranges (mAP@0.5):
 ```
 1DCNN/
 │
-├── README.md                          # This file
+├── README.md                          # Main documentation
 ├── requirements.txt                   # Python dependencies
-├── .gitignore                         # Git ignore rules
+├── .gitignore                         # Git ignore rules (protects sensitive data)
+├── DATA_PRIVACY_NOTICE.md             # Important: Dataset privacy information
+├── HOW_TO_SHARE.md                    # Guide for sharing this repository
+├── SHARING_GUIDE_FOR_PROF.md          # Specific sharing instructions
 │
-├── notebooks/                         # Main implementation notebooks
-│   ├── preprocessing.ipynb
-│   ├── A_generate_AHxN_fin.ipynb
-│   ├── main_train.ipynb
-│   ├── s1to5_LOSO_yolov8_*.ipynb
-│   └── preview.ipynb
+├── notebooks/                         # 🔬 Jupyter Notebooks
+│   ├── preprocessing.ipynb            # ECG preprocessing pipeline
+│   ├── A_generate_AHxN_fin.ipynb      # Spectrogram generation & LOSO setup
+│   ├── main_train.ipynb               # 1D CNN training experiments
+│   ├── main_train_0.8-10.ipynb        # Training with Lin et al. (2022) range
+│   ├── main_train_old.ipynb           # Previous training approach
+│   ├── main_train_oldmodel_with_evalution.ipynb         # Model evaluation
+│   ├── main_train_oldmodel_with_evalution_8filter.ipynb # SincNet 8-filter experiments
+│   ├── s1to5_LOSO_yolov8_*.ipynb      # YOLOv8 LOSO training (subjects 1-5)
+│   └── preview.ipynb                  # Dataset visualization
 │
-├── src/                               # Source code modules
-│   ├── preprocessing.py               # ECG preprocessing functions
-│   ├── spectrogram.py                 # Morlet wavelet transform
-│   ├── dataset.py                     # Dataset utilities
-│   └── sincnet_learning_proof.py      # SincNet experiments
+├── scripts/                           # 🐍 Python Scripts
+│   └── sincnet_learning_proof.py      # SincNet learnable filter experiments
 │
-├── config/                            # Configuration files
-│   └── training_config.yaml           # Training hyperparameters
+├── results/                           # 📊 Experimental Results
+│   ├── CSV Tables (8 files):
+│   │   ├── model_results_summary.csv     # Overall model performance
+│   │   ├── training_history.csv          # Training metrics per epoch
+│   │   ├── cnn_architecture_table.csv    # Network architecture details
+│   │   ├── cnn_weight_statistics_table.csv  # Weight analysis
+│   │   ├── learned_frequency_bands.csv   # SincNet learned filters
+│   │   ├── sincconv_filter_table.csv     # SincNet filter parameters
+│   │   ├── sincnet_epoch_bands.csv       # Filter evolution per epoch
+│   │   └── segment_labels.csv            # Dataset segment information
+│   │
+│   └── Visualizations (9 files):
+│       ├── confusion_matrix_training.png
+│       ├── confusion_matrix_validation_ordered.png
+│       ├── confusion_matrix_transposed_validation.png
+│       ├── cnn_weights_matrix.png
+│       ├── sincconv_filters_matrix.png
+│       ├── sincnet_learning_proof.png
+│       ├── system_architecture.png
+│       ├── training_overview_summary.png
+│       ├── training_results_summary.png
+│       └── output.png
 │
-├── data/                              # Data directory (not tracked)
-│   ├── raw/                           # Original EDF + XML files
-│   ├── preprocessed_ecg/              # Processed ECG signals (.npy)
-│   └── spectrograms/                  # Generated spectrograms + labels
+├── docs/                              # 📚 Documentation
+│   ├── methodology.md                 # Detailed technical methodology
+│   ├── RESEARCH_SUMMARY.md            # Executive summary
+│   └── QUICKSTART.md                  # Step-by-step tutorial
 │
-├── models/                            # Model architectures & checkpoints
-│   ├── checkpoint_epoch/              # Training checkpoints
-│   │   ├── model_best.pt
-│   │   └── model_best_acc.pt
-│   └── yolov8n_ori.yaml              # YOLOv8 architecture config
+├── checkpoint_epoch/                  # ⚠️ NOT TRACKED (Protected by .gitignore)
+│   ├── model_best.pt                  # Model checkpoints
+│   └── checkpoint_epoch*.pt           # Training checkpoints
 │
-├── results/                           # Experimental results
-│   ├── model_results_summary.csv
-│   ├── training_history.csv
-│   ├── cnn_architecture_table.csv
-│   ├── cnn_weight_statistics_table.csv
-│   ├── learned_frequency_bands.csv
-│   ├── sincconv_filter_table.csv
-│   ├── sincnet_epoch_bands.csv
-│   └── segment_labels.csv
+├── preprocessed_ecg/                  # ⚠️ NOT TRACKED (Protected by .gitignore)
+│   └── s*.npy                         # Preprocessed ECG segments (50 subjects)
 │
-├── docs/                              # Documentation
-│   ├── Draft_Final_Presentation.pdf   # Final presentation
-│   ├── weekly_reports/                # Weekly progress reports (PPT)
-│   └── methodology.md                 # Detailed methodology
-│
-└── figures/                           # Visualization outputs
-    ├── spectrograms/
-    └── results_plots/
+├── config/                            # ⚙️ Configuration (empty - configs in notebooks)
+├── figures/                           # 🖼️ Additional figures (empty - see results/)
+└── src/                               # 💻 Source modules (empty - code in notebooks)
 ```
+
+**📌 Notes:**
+- ✅ **Tracked (in GitHub):** notebooks/, scripts/, results/, docs/, root files
+- ❌ **Protected (NOT in GitHub):** checkpoint_epoch/, preprocessed_ecg/ (see `.gitignore`)
+- 📊 **Safe to share:** All CSV tables and PNG visualizations contain aggregated data only
 
 ---
 
